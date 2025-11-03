@@ -1,6 +1,8 @@
 # JTKJ24_morsetin_ryhmaprojekti
 Mikrokontrolleria liikuttamalla lähetetään morsekoodia UART:n välityksellä käyttäen gyroskooppianturia ja RTOS-käyttöjärjestelmää.
 ---
+Repositio sisältää vain päätiedoston main.c
+---
 # Toiminta
 1. Luetaan liike ja kiihtyvyysanturilta dataa ja muutetaan se morsekoodiksi. Tulostetaan käyttäjälle tekstinä
 2. Käytetään MPU 9250 liikeanturia. Alustetaan sensori. Kerätään data sensortaskilla ja muutetaan se morsekoodiksi. Uart-taskissa lähetetään data terminaaliin morsekoodina.  
@@ -12,5 +14,6 @@ Mikrokontrolleria liikuttamalla lähetetään morsekoodia UART:n välityksellä 
 # Tilakone
 <img width="387" height="274" alt="Näyttökuva 2025-11-02 162903" src="https://github.com/user-attachments/assets/00efa44f-f4b1-4a0a-a29c-fb5ea080b0c0" />
 ---
-# Huom.
-Sisältää vain päätiedoston main.c
+# Huomio
+Repositio sisältää vain päätiedoston main.c
+---
